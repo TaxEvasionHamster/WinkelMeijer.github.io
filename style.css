@@ -136,7 +136,7 @@ body {
   height: 100%;
   flex-direction: column;
   color: white;
-  background-image: url("assets/Img/empty-red-brick-wall.jpg");
+  background-image: url("assets/Img/brick-wall.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
