@@ -49,8 +49,8 @@ body {
 }
 .main-header .companyName {
   font-weight: bold;
-  color: #007bff;
   font-size: 2rem;
+  color: var(--secondary-color);
 }
 .main-logo {
   background-size: contain;
@@ -84,7 +84,7 @@ body {
 #text-block{
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 30px 50px;
+  padding: 30px 30px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
@@ -166,7 +166,7 @@ footer {
   padding: 10px;
   background-color: #f1f1f1;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .main-logo {
     margin: 0 auto;
   }
@@ -210,3 +210,4 @@ footer {
     flex-grow: 1;
   }
 }
+
